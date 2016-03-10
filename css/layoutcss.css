@@ -1,0 +1,160 @@
+
+@font-face {
+  font-family: 'blowbrush';
+  src: url('/fonts/blowbrush.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/blowbrush.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/blowbrush.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/blowbrush.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/blowbrush.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/blowbrush.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Bobbleboddy';
+  src: url('/fonts/Bobbleboddy.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Bobbleboddy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Bobbleboddy.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Bobbleboddy.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Bobbleboddy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Bobbleboddy.otf')  format('otf'), /* Safari, Android, iOS */
+       url('/fonts/Bobbleboddy.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Bobbleboddy_light';
+  src: url('/fonts/Bobbleboddy_light.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Bobbleboddy_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Bobbleboddy_light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Bobbleboddy_light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Bobbleboddy_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Bobbleboddy_light.otf')  format('otf'), /* Safari, Android, iOS */
+       url('/fonts/Bobbleboddy_light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+div p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #8e687b;
+}
+
+#active a {
+    color: #740707;
+    text-decoration: none;
+}
+
+.background {
+    background-color: #cecbb7;
+}
+
+#main-header {
+    font-family: 'blowbrush', Fallback, Impact;
+    text-align: center;
+    font-size: 100px;
+}
+
+.home-header {
+    font: bold 20px;
+}
+#main { 
+    font-family: impact;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    width: 800px;
+    position: relative;
+}
+
+.writeup {
+    width: 400px;
+    margin: 15px auto;
+    font-family: 'Bobbleboddy_light', Fallback, Impact;
+}
+
+.writeup-header {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bobbleboddy', Fallback, Impact;
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    font-family: 'Bobbleboddy_light', Fallback, Impact;
+}
+    
+.navbar {
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    margin 0 auto;
+    font-family: 'blowbrush', Fallback, Impact;
+    font-size: 35px;
+    padding: 0;
+}
+    
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+.food-wrapper {
+    width: 750px; 
+    font-family: 'Bobbleboddy_light', Fallback, Impact;
+}
+
+.food-writeup {
+    margin: 15px auto;
+    padding: 2px;
+}
+
+.food-ingredients {
+    background-color: #d0cba9;
+    padding: 2px;
+
+}
+
+.food-notes {
+    background-color: #cccece;
+    padding: 2px;
+}
+
+.food-writeup-header {
+    font-size: 30px;
+}
+
+/* clear fix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+html { 
+      background: url(/images/paper_by_francy84.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+*/
