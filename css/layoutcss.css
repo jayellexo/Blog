@@ -45,6 +45,24 @@ a:hover {
     color: #8e687b;
 }
 
+#me-image {
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: both;
+}
+
+#oscar-image {
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: both;
+}
+
+#wilbur-image {
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: both;
+}
+
 #active a {
     color: #740707;
     text-decoration: none;
@@ -61,7 +79,7 @@ a:hover {
 }
 
 .home-header {
-    font: bold 20px;
+    font-size: 30px;
 }
 #main { 
     font-family: impact;
@@ -75,9 +93,10 @@ a:hover {
 }
 
 .writeup {
-    width: 400px;
+    width: 600px;
     margin: 15px auto;
     font-family: 'Bobbleboddy_light', Fallback, Impact;
+    font-size: 20px;
 }
 
 .writeup-header {
@@ -112,18 +131,28 @@ a:hover {
 
 .food-wrapper {
     width: 750px; 
+    margin: 0 auto;
     font-family: 'Bobbleboddy_light', Fallback, Impact;
 }
 
-.food-writeup {
+.food-writeup{
     margin: 15px auto;
     padding: 2px;
+}
+.food-direction {
+    margin: 15px auto;
+    padding: 2px;
+    border-bottom: dashed 5px;
 }
 
 .food-ingredients {
     background-color: #d0cba9;
     padding: 2px;
+    margin-bottom: 5px;
+}
 
+.food-ingredients li {
+    list-style: none;
 }
 
 .food-notes {
@@ -135,6 +164,9 @@ a:hover {
     font-size: 30px;
 }
 
+.food-banner {
+    width: 750px;
+}
 /* clear fix */
 .group:before,
 .group:after {
