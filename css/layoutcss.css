@@ -45,24 +45,6 @@ a:hover {
     color: #8e687b;
 }
 
-#me-image {
-    float: left;
-    margin: 0 15px 15px 0;
-    clear: both;
-}
-
-#oscar-image {
-    float: left;
-    margin: 0 15px 15px 0;
-    clear: both;
-}
-
-#wilbur-image {
-    float: left;
-    margin: 0 15px 15px 0;
-    clear: both;
-}
-
 #active a {
     color: #740707;
     text-decoration: none;
@@ -88,15 +70,15 @@ a:hover {
 .wrapper {
     margin: 0 auto;
     padding: 0px;
-    width: 800px;
+    width: 1000px;
     position: relative;
 }
 
 .writeup {
-    width: 600px;
-    margin: 15px auto;
     font-family: 'Bobbleboddy_light', Fallback, Impact;
     font-size: 20px;
+    padding: 10px;
+    margin: 10px 0 0 0;
 }
 
 .writeup-header {
@@ -108,7 +90,6 @@ a:hover {
 #footer {
     font-size: 15px;
     text-align: center;
-    clear: both;
     border-bottom: solid 2px;
     border-top: solid 2px;
     font-family: 'Bobbleboddy_light', Fallback, Impact;
@@ -117,20 +98,19 @@ a:hover {
 .navbar {
     border-bottom: solid 2px;
     border-top: solid 2px;
-    margin 0 auto;
     font-family: 'blowbrush', Fallback, Impact;
     font-size: 35px;
-    padding: 0;
+    text-align: center;
 }
     
 .navbar ul li {
     list-style: none;
     display: inline;
-    padding: 15px;
+    padding: 13px;
 }
 
 .food-wrapper {
-    width: 750px; 
+    width: 800px; 
     margin: 0 auto;
     font-family: 'Bobbleboddy_light', Fallback, Impact;
 }
@@ -165,8 +145,13 @@ a:hover {
 }
 
 .food-banner {
-    width: 750px;
+    width: 800px;
 }
+
+.about-image {
+    padding: 10px;
+}
+
 /* clear fix */
 .group:before,
 .group:after {
