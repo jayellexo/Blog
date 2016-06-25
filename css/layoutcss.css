@@ -1,39 +1,53 @@
+/*  ------ FONTS USED ------*/
 
 @font-face {
-  font-family: 'blowbrush';
-  src: url('/fonts/blowbrush.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/blowbrush.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/blowbrush.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/blowbrush.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/blowbrush.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/blowbrush.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'blowbrush';
+    src: url('/fonts/blowbrush.eot');
+    /* IE9 Compat Modes */
+    src: url('/fonts/blowbrush.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/blowbrush.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/blowbrush.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/fonts/blowbrush.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/blowbrush.svg#svgFontName') format('svg');
+    /* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'Bobbleboddy';
-  src: url('/fonts/Bobbleboddy.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Bobbleboddy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Bobbleboddy.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Bobbleboddy.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/Bobbleboddy.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Bobbleboddy.otf')  format('otf'), /* Safari, Android, iOS */
-       url('/fonts/Bobbleboddy.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'Bobbleboddy';
+    src: url('/fonts/Bobbleboddy.eot');
+    /* IE9 Compat Modes */
+    src: url('/fonts/Bobbleboddy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/Bobbleboddy.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/Bobbleboddy.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/fonts/Bobbleboddy.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/Bobbleboddy.otf') format('otf'), /* Safari, Android, iOS */
+    url('/fonts/Bobbleboddy.svg#svgFontName') format('svg');
+    /* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'Bobbleboddy_light';
-  src: url('/fonts/Bobbleboddy_light.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Bobbleboddy_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Bobbleboddy_light.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Bobbleboddy_light.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/Bobbleboddy_light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Bobbleboddy_light.otf')  format('otf'), /* Safari, Android, iOS */
-       url('/fonts/Bobbleboddy_light.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'Bobbleboddy_light';
+    src: url('/fonts/Bobbleboddy_light.eot');
+    /* IE9 Compat Modes */
+    src: url('/fonts/Bobbleboddy_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/Bobbleboddy_light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/Bobbleboddy_light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/fonts/Bobbleboddy_light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/Bobbleboddy_light.otf') format('otf'), /* Safari, Android, iOS */
+    url('/fonts/Bobbleboddy_light.svg#svgFontName') format('svg');
+    /* Legacy iOS */
 }
 
-div p {
-    margin: 0px;
+
+/*  --------- GLOBAL STYLES -------*/
+
+* {
     padding: 0px;
+    margin: 0px;
+}
+
+p {
+    margin: 10px 0 10px 0;
 }
 
 a {
@@ -45,14 +59,76 @@ a:hover {
     color: #8e687b;
 }
 
-#active a {
-    color: #740707;
-    text-decoration: none;
+img {
+    margin: 2px 1px;
 }
 
 .background {
     background-color: #cecbb7;
 }
+
+.writeup {
+    font-family: 'Bobbleboddy_light', Fallback, Impact;
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    width: 1000px;
+    position: relative;
+}
+
+.spacing {
+    padding: 0 0 20px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*  ------ NAVBAR STYLES ------*/
+
+#nav-border {
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+}
+
+.navbar-default {
+    background-color: #FFFFFF
+}
+
+.dropdown-menu li {
+    font-size: 20px;
+}
+
+.navbar {
+    font-family: 'blowbrush', Fallback, Impact;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 8px;
+}
+
+#active a {
+    color: #740707;
+    text-decoration: none;
+}
+
+
+/*  ------ HEADER/BANNER STYLES ------*/
 
 #main-header {
     font-family: 'blowbrush', Fallback, Impact;
@@ -63,23 +139,6 @@ a:hover {
 .home-header {
     font-size: 30px;
 }
-#main { 
-    font-family: impact;
-}
-
-.wrapper {
-    margin: 0 auto;
-    padding: 0px;
-    width: 1000px;
-    position: relative;
-}
-
-.writeup {
-    font-family: 'Bobbleboddy_light', Fallback, Impact;
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px 0 0 0;
-}
 
 .writeup-header {
     font-size: 20px;
@@ -87,38 +146,20 @@ a:hover {
     font-family: 'Bobbleboddy', Fallback, Impact;
 }
 
-#footer {
-    font-size: 15px;
-    text-align: center;
-    border-bottom: solid 2px;
-    border-top: solid 2px;
-    font-family: 'Bobbleboddy_light', Fallback, Impact;
-}
-    
-.navbar {
-    border-bottom: solid 2px;
-    border-top: solid 2px;
-    font-family: 'blowbrush', Fallback, Impact;
-    font-size: 35px;
-    text-align: center;
-}
-    
-.navbar ul li {
-    list-style: none;
-    display: inline;
-    padding: 13px;
-}
+
+/*  ------ FOOD PAGE STYLES ------*/
 
 .food-wrapper {
-    width: 800px; 
+    width: 800px;
     margin: 0 auto;
     font-family: 'Bobbleboddy_light', Fallback, Impact;
 }
 
-.food-writeup{
+.food-writeup {
     margin: 15px auto;
     padding: 2px;
 }
+
 .food-direction {
     margin: 15px auto;
     padding: 2px;
@@ -148,22 +189,74 @@ a:hover {
     width: 800px;
 }
 
+
+/*  ------ ABOUT PAGE STYLES ------*/
+
 .about-image {
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
-/* clear fix */
+.about-writeup {
+    font-family: 'Bobbleboddy_light', Fallback, Impact;
+    font-size: 25px;
+    padding: 10px;
+    margin: 25px 0 0 0;
+}
+
+
+/*  ------ CONTACT PAGE STYLES ------*/
+
+/*  ------ SUCCULENT PAGE STYLES ------*/
+.succulents div h1 {
+    color: orange;
+    font-family: 'blowbrush', Fallback, Impact;
+}
+
+/*  ------ FOOD ADVENTURES PAGE STYLES ------*/
+.adventure-writeup {
+    margin: 15px 0 0 0;
+    padding: 0 5% 0 0;
+}
+
+.food-adventure div h1 {
+    color: #a1c211;
+    font-family: 'blowbrush', Fallback, Impact;
+    font-size: 50px;
+}
+
+#foodactive {
+    color: #740707;
+}
+
+/*  ------ FOOTER STYLES ------*/
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    font-family: 'Bobbleboddy_light', Fallback, Impact;
+    padding: 10px 0 0 0;
+}
+
+
+/*  ------ CLEARFIX ------*/
+
 .group:before,
 .group:after {
     content: "";
     display: table;
-} 
+}
+
 .group:after {
     clear: both;
 }
+
 .group {
-    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    zoom: 1;
+    /* For IE 6/7 (trigger hasLayout) */
 }
+
 
 /*
 html { 
