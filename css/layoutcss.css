@@ -2,39 +2,13 @@
 
 @font-face {
     font-family: 'blowbrush';
-    src: url('fonts/blowbrush.eot');
+    src: url('/blog/fonts/blowbrush.eot');
     /* IE9 Compat Modes */
-    src: url('fonts/blowbrush.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/blowbrush.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/blowbrush.woff') format('woff'), /* Pretty Modern Browsers */
-    url('fonts/blowbrush.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/blowbrush.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'Bobbleboddy';
-    src: url('fonts/Bobbleboddy.eot');
-    /* IE9 Compat Modes */
-    src: url('fonts/Bobbleboddy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/Bobbleboddy.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/Bobbleboddy.woff') format('woff'), /* Pretty Modern Browsers */
-    url('fonts/Bobbleboddy.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/Bobbleboddy.otf') format('otf'), /* Safari, Android, iOS */
-    url('fonts/Bobbleboddy.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'Bobbleboddy_light';
-    src: url('fonts/Bobbleboddy_light.eot');
-    /* IE9 Compat Modes */
-    src: url('fonts/Bobbleboddy_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/Bobbleboddy_light.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/Bobbleboddy_light.woff') format('woff'), /* Pretty Modern Browsers */
-    url('fonts/Bobbleboddy_light.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/Bobbleboddy_light.otf') format('otf'), /* Safari, Android, iOS */
-    url('fonts/Bobbleboddy_light.svg#svgFontName') format('svg');
+    src: url('/fonts/blowbrush.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/blog/fonts/blowbrush.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/blog/fonts/blowbrush.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/blog/fonts/blowbrush.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/blog/fonts/blowbrush.svg#svgFontName') format('svg');
     /* Legacy iOS */
 }
 
@@ -48,6 +22,7 @@
 
 p {
     margin: 10px 0 10px 0;
+    font-size: 18px;
 }
 
 a {
@@ -68,7 +43,7 @@ img {
 }
 
 .writeup {
-    font-family: 'Bobbleboddy_light', Fallback, Arial;
+    font-family: 'Slabo 27px', serif;
     font-size: 23px;
     padding: 10px;
     margin: 10px 0 0 0;
@@ -106,8 +81,9 @@ li {
 
 .navbar {
     font-family: 'blowbrush', Fallback, Arial;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
+
 }
 
 .navbar .navbar-nav {
@@ -119,7 +95,6 @@ li {
 .navbar ul li {
     list-style: none;
     display: inline;
-    padding: 8px;
 }
 
 #active a {
@@ -143,7 +118,7 @@ li {
 .writeup-header {
     font-size: 20px;
     text-align: center;
-    font-family: 'Bobbleboddy', Fallback, Arial;
+    font-family: 'Slabo 27px', serif;
 }
 
 
@@ -152,7 +127,7 @@ li {
 .food-wrapper {
     width: 800px;
     margin: 0 auto;
-    font-family: 'Bobbleboddy_light', Fallback, Arial;
+    font-family: 'Slabo 27px', serif;
 }
 
 .food-writeup {
@@ -182,7 +157,9 @@ li {
 }
 
 .food-writeup-header {
-    font-size: 30px;
+    color: #ff6600;
+    font-size: 40px;
+    font-family: 'blowbrush', Fallback, Arial;
 }
 
 .food-banner {
@@ -197,7 +174,7 @@ li {
 }
 
 .about-writeup {
-    font-family: 'Bobbleboddy_light', Fallback, Arial;
+    font-family: 'Slabo 27px', serif;
     font-size: 20px;
     padding: 10px;
     margin: 0 0 0 0;
@@ -209,7 +186,7 @@ li {
 /*  ------ SUCCULENT PAGE STYLES ------*/
 .succulents div h1 {
     color: orange;
-    font-family: 'blowbrush', Fallback, Arial;
+    font-family: 'blowbrush', Arial;
 }
 
 /*  ------ FOOD ADVENTURES PAGE STYLES ------*/
@@ -220,12 +197,17 @@ li {
 
 .food-adventure div h1 {
     color: #a1c211;
-    font-family: 'blowbrush', Fallback, Arial;
+    font-family: 'blowbrush', Arial;
     font-size: 50px;
 }
 
 #foodactive {
     color: #740707;
+}
+
+/*  ------  GAME STYLES ------ */
+.gameimage {
+    width: 60%;
 }
 
 /*  ------ FOOTER STYLES ------*/
@@ -235,7 +217,7 @@ li {
     text-align: center;
     border-bottom: solid 2px;
     border-top: solid 2px;
-    font-family: 'Bobbleboddy_light', Fallback, Arial;
+    font-family: 'Slabo 27px', serif;
     padding: 10px 0 0 0;
 }
 
