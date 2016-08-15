@@ -163,9 +163,8 @@ li {
 }
 
 .food-banner {
-    width: 800px;
+    width: 100%;
 }
-
 
 /*  ------ ABOUT PAGE STYLES ------*/
 
@@ -205,9 +204,13 @@ li {
     color: #740707;
 }
 
+.foodadventureimage {
+    width:90%;
+}
+
 /*  ------  GAME STYLES ------ */
 .gameimage {
-    width: 60%;
+    width: 100%;
 }
 
 /*  ------ FOOTER STYLES ------*/
