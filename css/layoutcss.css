@@ -64,6 +64,13 @@ li {
     list-style-type: none;
 }
 
+.banners {
+    width:100%;
+}
+
+#dropactive {
+    color: #740707;
+}
 /*  ------ NAVBAR STYLES ------*/
 
 #nav-border {
@@ -200,10 +207,6 @@ li {
     font-size: 50px;
 }
 
-#foodactive {
-    color: #740707;
-}
-
 .foodadventureimage {
     width:90%;
 }
@@ -211,6 +214,12 @@ li {
 /*  ------  GAME STYLES ------ */
 .gameimage {
     width: 100%;
+}
+
+#gameheader {
+    color: #ff0080;
+    font-size: 40px;
+    font-family: 'blowbrush', Fallback, Arial;
 }
 
 /*  ------ FOOTER STYLES ------*/
